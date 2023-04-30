@@ -12,9 +12,9 @@ facility composed of networked computers, storage systems and computing infrastr
 			
 ## Communication 
 + ### satalite communication
-		data can be sent to satellite via antenna but this would be hard as data is traveled long distance to reach satellite in ionosphere and then to the user 
+	data can be sent to satellite via antenna but this would be hard as data is traveled long distance to reach satellite in ionosphere and then to the user 
 + ### optical fiber 
-		This cables connect data centers with user device, actually it connects internet service providers "ISP" with these data centers then these providers connects internet to user home whether a wired or wireless connection and then route their traffic to DC
+	This cables connect data centers with user device, actually it connects internet service providers "ISP" with these data centers then these providers connects internet to user home whether a wired or wireless connection and then route their traffic to DC
 + ### others
 
 ## IP address
