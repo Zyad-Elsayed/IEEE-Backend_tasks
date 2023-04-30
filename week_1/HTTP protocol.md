@@ -1,4 +1,4 @@
-`hyper text transfer protocol` which is responsible for communication between web server and clients. that means every time you open you web browser and start visiting website, this http protocol is the  way for this connection otherwise there would be no connection and these data would be reachless
+**hyper text transfer protocol** which is responsible for communication between web server and clients. that means every time you open you web browser and start visiting website, this http protocol is the  way for this connection otherwise there would be no connection and these data would be reachless
 
 HTTP is stateless in other words every request is independant and it can't remeber or store any previous actions like logging in so there are other functionality to enhance user experience like cookies which contains user sessions and other data 
 
