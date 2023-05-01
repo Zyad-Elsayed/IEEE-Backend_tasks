@@ -24,7 +24,7 @@ data, etc. servers always listening for requests and when it receives one it res
 
 #### There are other ways for communctaion via web 
 ##### **Peer-to-peer model** 
-this model is based on centralized structure.
+this model is based on decentralized structure.
 + ther is no servers and no clients each can do both "requesters and response providers" like torrent 
 
 	
